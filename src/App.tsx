@@ -6,9 +6,9 @@ import TaskList from './TaskList';
 const App:React.FC = () => {
     return (
         <div style={{padding:"20px"}}>
-            <Hello name = 'Hariharan' />
+            {/* <Hello name = 'Hariharan' />
             <Counter initialValue={0}/>
-            <Counter initialValue={10} />
+            <Counter initialValue={10} /> */}
             <TaskList />
         </div>
 
